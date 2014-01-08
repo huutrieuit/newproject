@@ -1,0 +1,159 @@
+2013-12-16 12:20:41 Error: [MissingHelperException] Helper class tbl_userHelper could not be found.
+Exception Attributes: array (
+  'class' => 'tbl_userHelper',
+  'plugin' => false,
+)
+Request URL: /www/myproject/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('tbl_user')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(818): HelperCollection->__isset('tbl_user')
+#2 C:\xampp\htdocs\www\myproject\View\Layouts\default.ctp(3): View->__get('tbl_user')
+#3 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(929): include('C:\xampp\htdocs...')
+#4 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(891): View->_evaluate('C:\xampp\htdocs...', Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(523): View->_render('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(468): View->renderLayout('', 'default')
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(952): View->render('home', NULL)
+#8 C:\xampp\htdocs\www\myproject\Controller\PagesController.php(60): Controller->render('home')
+#9 [internal function]: PagesController->display('home')
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#11 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#12 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#13 C:\xampp\htdocs\www\myproject\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2013-12-16 12:41:04 Error: [MissingActionException] Action PagesController::display() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'display',
+)
+Request URL: /www/myproject/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\www\myproject\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-12-16 12:41:16 Error: [MissingHelperException] Helper class tbl_userHelper could not be found.
+Exception Attributes: array (
+  'class' => 'tbl_userHelper',
+  'plugin' => false,
+)
+Request URL: /www/myproject/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('tbl_user')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(818): HelperCollection->__isset('tbl_user')
+#2 C:\xampp\htdocs\www\myproject\View\Layouts\default.ctp(3): View->__get('tbl_user')
+#3 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(929): include('C:\xampp\htdocs...')
+#4 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(891): View->_evaluate('C:\xampp\htdocs...', Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(523): View->_render('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(468): View->renderLayout('', 'default')
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(952): View->render('home', NULL)
+#8 C:\xampp\htdocs\www\myproject\Controller\PagesController.php(60): Controller->render('home')
+#9 [internal function]: PagesController->display('home')
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#11 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#12 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#13 C:\xampp\htdocs\www\myproject\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2013-12-16 12:42:25 Error: [MissingActionException] Action PagesController::display() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'display',
+)
+Request URL: /www/myproject/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\www\myproject\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-12-17 02:01:45 Error: [MissingHelperException] Helper class tbl_userHelper could not be found.
+Exception Attributes: array (
+  'class' => 'tbl_userHelper',
+  'plugin' => false,
+)
+Request URL: /www/myproject/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('tbl_user')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(818): HelperCollection->__isset('tbl_user')
+#2 C:\xampp\htdocs\www\myproject\View\Layouts\default.ctp(2): View->__get('tbl_user')
+#3 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(929): include('C:\xampp\htdocs...')
+#4 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(891): View->_evaluate('C:\xampp\htdocs...', Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(523): View->_render('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(468): View->renderLayout('', 'default')
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(952): View->render('home', NULL)
+#8 C:\xampp\htdocs\www\myproject\Controller\PagesController.php(60): Controller->render('home')
+#9 [internal function]: PagesController->display('home')
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#11 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#12 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#13 C:\xampp\htdocs\www\myproject\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2013-12-17 02:06:27 Error: [MissingHelperException] Helper class tbl_userHelper could not be found.
+Exception Attributes: array (
+  'class' => 'tbl_userHelper',
+  'plugin' => false,
+)
+Request URL: /www/myproject/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('tbl_user')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(818): HelperCollection->__isset('tbl_user')
+#2 C:\xampp\htdocs\www\myproject\View\Layouts\default.ctp(2): View->__get('tbl_user')
+#3 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(929): include('C:\xampp\htdocs...')
+#4 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(891): View->_evaluate('C:\xampp\htdocs...', Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(523): View->_render('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(468): View->renderLayout('', 'default')
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(952): View->render('home', NULL)
+#8 C:\xampp\htdocs\www\myproject\Controller\PagesController.php(60): Controller->render('home')
+#9 [internal function]: PagesController->display('home')
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#11 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#12 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#13 C:\xampp\htdocs\www\myproject\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2013-12-17 02:32:29 Error: [MissingControllerException] Controller class ViewController could not be found.
+Exception Attributes: array (
+  'class' => 'ViewController',
+  'plugin' => NULL,
+)
+Request URL: /www/myproject/view/
+Stack Trace:
+#0 C:\xampp\htdocs\www\myproject\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-17 02:32:37 Error: [MissingHelperException] Helper class tbl_userHelper could not be found.
+Exception Attributes: array (
+  'class' => 'tbl_userHelper',
+  'plugin' => false,
+)
+Request URL: /www/myproject/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('tbl_user')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(818): HelperCollection->__isset('tbl_user')
+#2 C:\xampp\htdocs\www\myproject\View\Layouts\default.ctp(2): View->__get('tbl_user')
+#3 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(929): include('C:\xampp\htdocs...')
+#4 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(891): View->_evaluate('C:\xampp\htdocs...', Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(523): View->_render('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(468): View->renderLayout('', 'default')
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(952): View->render('home', NULL)
+#8 C:\xampp\htdocs\www\myproject\Controller\PagesController.php(60): Controller->render('home')
+#9 [internal function]: PagesController->display('home')
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#11 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#12 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#13 C:\xampp\htdocs\www\myproject\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2013-12-17 02:42:39 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /www/myproject/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\www\myproject\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-17 09:15:03 Error: [MissingControllerException] Controller class TbluserController could not be found.
+Exception Attributes: array (
+  'class' => 'TbluserController',
+  'plugin' => NULL,
+)
+Request URL: /www/myproject/tbluser
+Stack Trace:
+#0 C:\xampp\htdocs\www\myproject\webroot\index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
